@@ -163,6 +163,13 @@ label {
   margin-left: 50px; 
 }
 
+textarea{
+  background-color: #f8f9fa;
+  color: #000000;
+  border: 1px solid #000000;
+  font-size: 18px;
+}
+
 .dark-mode textarea{
   background-color: #00000000;
   color: #f0f0f0;
