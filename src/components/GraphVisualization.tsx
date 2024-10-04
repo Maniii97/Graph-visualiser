@@ -111,7 +111,7 @@ const GraphVisualization: React.FC<GraphVisualizationProps> = ({
     return () => {
       network.destroy();
     };
-  }, [graphData, inputType , graphOptions]);
+  }, [graphData, inputType, graphOptions]);
 
   return (
     <div
