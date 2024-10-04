@@ -8,7 +8,6 @@ interface GraphVisualizationProps {
   graphOptions: any;
 }
 
-
 const GraphVisualization: React.FC<GraphVisualizationProps> = ({
   graphData,
   inputType,
@@ -84,8 +83,8 @@ const GraphVisualization: React.FC<GraphVisualizationProps> = ({
           background: graphOptions === "dark" ? "#000000" : "#FFFFFF",
           border: graphOptions === "dark" ? "#FFFFFF" : "#000000",
           highlight: {
-            background: graphOptions === "dark" ? "#FFFFFF" : "#000000",
-            border: graphOptions === "dark" ? "#FFFFFF" : "#000000",
+            background: graphOptions === "dark" ? "#000000" : "#ffffff",
+            border: graphOptions === "dark" ? "#ffffff" : "#000000",
           },
         },
       },
