@@ -162,3 +162,10 @@ label {
   cursor: pointer;
   margin-left: 50px; 
 }
+
+.dark-mode textarea{
+  background-color: #00000000;
+  color: #f0f0f0;
+  border: 1px solid #f0f0f0;
+  font-size: 18px;
+}

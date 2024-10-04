@@ -81,8 +81,8 @@ const GraphInput: React.FC<GraphInputProps> = ({
       </div>
 
       <textarea
-        rows={10}
-        cols={50}
+        rows={9}
+        cols={45}
         value={inputData}
         onChange={handleInputChange}
         placeholder={
